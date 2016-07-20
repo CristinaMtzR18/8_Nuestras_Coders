@@ -1,0 +1,37 @@
+/* Inserta tu código aqui
+	frase del día "No hay peor lucha que la que no se hace"*/
+div{
+	position: relative;
+	background-color: aqua;
+}
+
+.coders{
+	width: 50%; /*Me permite reducir el ancho del div padre a la mitad para obligar al cuarto, quinto y sexto hijo hacer una segunda fila*/
+	padding: 10px;
+	/* margin: auto; Me permite centrar al div padre en la pantalla*/
+}
+
+.espacio{
+	display: inline-block;
+	padding: 5px;
+}
+
+.nombre{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	color: yellow;
+	font-weight: bold;
+}
+
+hr{
+	background-color: black;
+	height: 10px;
+	width: 200px;
+	margin-left: 0px; /*Me permite seleccionar especificamente un margin*/
+}
+
+img{
+	width: 100%;/*Ayuda de Nello para no distorcionar imagenes al ir cambiando el tamaño de la pantalla*/
+	opacity: 0.5; /*Me permite ponerle opacidad a las imagenes con un rango del 0 al 1*/
+}
